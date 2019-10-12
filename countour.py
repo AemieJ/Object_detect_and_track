@@ -5,7 +5,7 @@ from object_detection import utils
 from utils import label_map_util
 
 
-
+'''
 def detection() :   
      """Load a Frozen Graph"""
      cap=cv2.VideoCapture(r"C:\Users\AEMIE\Downloads\footage2.mp4")
@@ -40,7 +40,7 @@ def detection() :
              classes=np.squeeze(classes).astype(np.int32)
              scores=np.squeeze(scores)
              num_detections = np.squeeze(num_detections)      
-             
+'''     
              
 
                             
